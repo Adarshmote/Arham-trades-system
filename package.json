@@ -1,0 +1,15 @@
+{
+  "name": "arham-trades-system",
+  "version": "1.0.0",
+  "description": "Resilient BSE Trade Data Ingestion Engine & Real-Time Dashboard",
+  "scripts": {
+    "install:all": "npm install && cd mock-bse && npm install && cd ../backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"npm run start:mock\" \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:mock": "cd mock-bse && node server.js",
+    "start:backend": "cd backend && node server.js",
+    "start:frontend": "cd frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
