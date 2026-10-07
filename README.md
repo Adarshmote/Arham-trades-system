@@ -33,8 +33,8 @@ An event-driven trade synchronization dashboard designed to solve the 30-second 
    ```bash
    git clone [[(https://github.com/Adarshmote/Arham-trades-system)]
 
-2.**Install all dependencies:**
+2. **Install all dependencies:**
 npm run install:all
 
-3.**Run all services concurrently:**
+3. **Run all services concurrently:**
 npm run dev
